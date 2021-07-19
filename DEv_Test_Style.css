@@ -1,0 +1,45 @@
+@charset "utf-8";
+@viewPort{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+body {
+	font-family: 'open-sans';
+	color: #233950;
+	text-align: justify;
+	max-width: inherit;
+	margin: 0 auto;
+	background-color: aliceblue;
+}
+#Titel{
+	color: #CC9933;
+}
+#Subtitel{
+	min-height: 20px;
+}
+#body{
+	min-height: 300px;
+	margin-top: 3%;
+}
+#Titel, #Subtitel, #body{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.moreText{
+	display: none;
+}
+.read_more_btn{
+	padding: 10px 30px;
+	background-color: #CC9933;
+	color: #233950;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.mainText.show_more.moreText{
+	display: inline;
+}
